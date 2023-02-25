@@ -1,0 +1,20 @@
+{
+  "course_title":"Introduction to Mathematical Programming",
+  "course_description":"This course is an introduction to linear optimization and its extensions emphasizing the underlying mathematical structures, geometrical ideas, algorithms and solutions of practical problems. The topics covered include: formulations, the geometry of linear optimization, duality theory, the simplex method, sensitivity analysis, robust optimization, large scale optimization network flows, solving problems with an exponential number of constraints and the ellipsoid method, interior point methods, semidefinite optimization, solving real world problems problems with computer software, discrete optimization formulations and algorithms.\n",
+  "site_uid":"ef67a347-fe34-4df7-b3e5-3550b31bb7c3",
+  "legacy_uid":"b5c25fa7-1d33-4c80-e073-1ac77d8ad53a","instructors": [{
+    "first_name":"Dimitris",
+    "last_name":"Bertsimas",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Dimitris Bertsimas"}],"department_numbers":["6","15"],
+  "learning_resource_types":["Problem Sets","Lecture Notes"],
+  "topics":[["Engineering","Computer Science","Algorithms and Data Structures"],["Mathematics","Applied Mathematics"],["Engineering","Systems Engineering"],["Engineering","Computer Science","Software Design and Engineering"],["Mathematics","Discrete Mathematics"]],
+  "primary_course_number":"6.251J",
+  "extra_course_numbers":"15.081J",
+  "term":"Fall",
+  "year":"2009",
+  "level":["Graduate"],
+  "image_src":"./static_resources/2da5a90d49ef24dbb5298a0516122992_6-251jf09.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"","draft":false,"file":"/courses/6-251j-introduction-to-mathematical-programming-fall-2009/2da5a90d49ef24dbb5298a0516122992_6-251jf09.jpg","file_type":"image/jpeg","image_metadata":{"caption":"Topics in geometric programming are covered in lectures 2-4. (Courtesy of D. Bertsimas and J. N. Tsitsiklis, _Introduction to Linear Optimization_, Athena Scientific, 1997.)","credit":"","image-alt":"Illustration depicting a line intersecting a three-dimensional object."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"6-251jf09.jpg","uid":"2da5a90d-49ef-24db-b529-8a0516122992","video_files":{"video_thumbnail_file":null},"video_metadata":{"youtube_id":null}}}
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/assignments/data.json</guid>
+      <description>The problem sets include assigned readings and problems from the following text:
+[AMO] = Ahuja, Ravindra K., Thomas L. Magnanti, and James B. Orlin. Network Flows: Theory, Algorithms, and Applications. Upper Saddle River, NJ: Prentice Hall, 1993. ISBN: 9780136175490.
+ASSIGNMENTS Problem set 1 (PDF) Problem set 2 (PDF) Problem set 3 (PDF) Problem set 4 (PDF) Problem set 5 (PDF) </description>
+    </item>
+    
+    <item>
+      <title>MIT15_082JF10_assn01.pdf</title>
+      <link>/resources/mit15_082jf10_assn01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit15_082jf10_assn01/data.json</guid>
+      <description>This resource contians the information regarding to Readings in AMO.</description>
+    </item>
+    
+    <item>
+      <title>MIT15_082JF10_assn02.pdf</title>
+      <link>/resources/mit15_082jf10_assn02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit15_082jf10_assn02/data.json</guid>
+      <description>This resource contains information related to Algorithm Design and Analysis.</description>
+    </item>
+    
+    <item>
+      <title>MIT15_082JF10_assn03.pdf</title>
+      <link>/resources/mit15_082jf10_assn03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit15_082jf10_assn03/data.json</guid>
+      <description>This resource contains information related to Maximum Flows: Basic Ideas.</description>
+    </item>
+    
+    <item>
+      <title>MIT15_082JF10_assn04.pdf</title>
+      <link>/resources/mit15_082jf10_assn04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit15_082jf10_assn04/data.json</guid>
+      <description>This resource contains information related to Naive-Ford-Fulkerson.</description>
+    </item>
+    
+    <item>
+      <title>MIT15_082JF10_assn05.pdf</title>
+      <link>/resources/mit15_082jf10_assn05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit15_082jf10_assn05/data.json</guid>
+      <description>This resource contains information related to online solutions of linear programming, and Lagrangian relaxation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+/*!
+ * Programatically add the following
+ */
+
+/*!
+ * imagesLoaded PACKAGED v4.1.1
+ * JavaScript is all like "You images are done yet or what?"
+ * MIT License
+ */
+
+/*!
+ * ngimagesLoaded v4.1.1
+ * JavaScript is all like "You images are done yet or what?"
+ * MIT License
+ */
+
+/*! @name @videojs/http-streaming @version 2.6.4 @license Apache-2.0 */
+
+/*! @name aes-decrypter @version 3.1.2 @license Apache-2.0 */
+
+/*! @name m3u8-parser @version 4.5.2 @license Apache-2.0 */
+
+/*! @name pkcs7 @version 1.0.4 @license Apache-2.0 */
+
+/*! NGHammer.JS - v2.0.7 - 2016-04-22
+ * http://hammerjs.github.io/
+ *
+ * Copyright (c) 2016 Jorik Tangelder;
+ * Licensed under the MIT license */
+
+/*! videojs-transcript - v0.8.0 - 2016-02-21
+* Copyright (c) 2016 Matthew Walsh; Licensed MIT */
+
+/**!
+ * @preserve nanogallery2 - javascript photo / video gallery and lightbox
+ * Homepage: http://nanogallery2.nanostudio.org
+ * Sources:  https://github.com/nanostudio-org/nanogallery2
+ *
+ * License:  GPLv3 and commercial licence
+ * 
+ * Requirements:
+ *  - jQuery (http://www.jquery.com) - version >= 1.7.1
+ *
+ * Embeded components:
+ *  - shifty (https://github.com/jeremyckahn/shifty)
+ *  - imagesloaded (https://github.com/desandro/imagesloaded)
+ *  - hammer.js (http://hammerjs.github.io/)
+ *  - screenfull.js (https://github.com/sindresorhus/screenfull.js)
+ * Tools:
+ *  - webfont generated with http://fontello.com - mainly based on Font Awesome Copyright (C) 2012 by Dave Gandy (http://fontawesome.io/)
+ *  - ICO online converter: https://iconverticons.com/online/
+ */
+
+// thanks to @lichtamberg - https://github.com/lichtamberg

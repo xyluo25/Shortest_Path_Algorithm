@@ -1,0 +1,6 @@
+
+{
+  "title":"Animations",
+  "content":"Animations are available to illustrate and clarify many of the topics covered in the lecture notes for this course. We recommend you view the Microsoft® PowerPoint® (PPT) versions, if possible, because they include motion.\nSES # TOPICS PDFS SLIDES 3 Breadth first search\nDepth first search\nTopological ordering\n(PDF)\n(PDF)\n(PDF)\n(PPT - 1.3MB)\n(PPT - 2.1MB)\n(PPT)\n4 Eulerian cycles in directed graphs\nFlow decomposition\n(PDF)\n(PDF)\n(PPT)\n(PPT)\n5 Dijkstra\u0026rsquo;s algorithm (PDF) (PPT) 6 Dial\u0026rsquo;s algorithm\n2-level bucket algorithm\nRadix heap animation\n(PDF)\n(PDF)\n(PDF)\n(PPT)\n(PPT - 1.6MB)\n(PPT)\n7 Label correcting algorithm\nModified label correcting algorithm\n(PDF)\n(PDF)\n(PPT)\n(PPT)\n9 Ford-Fulkerson algorithm (PDF) (PPT) 11 Preflow push algorithm (PDF) (PPT - 1.1MB) 13 Negative cycle (cycle canceling) algorithm (PDF) (PPT) 14 Successive shortest path (SSP) algorithm (PDF) (PPT) 16 Network simplex animations (PDF) (PPT - 1.1MB) "}
+
+

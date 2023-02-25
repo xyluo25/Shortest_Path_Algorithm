@@ -1,0 +1,6 @@
+
+{
+  "title":"Calendar",
+  "content":" SES # TOPICS KEY DATES 1 Introduction to network models 2 Computational complexity and data structures 3 Graph search algorithms Problem set 1 due 4 Transformations and flow decomposition 5 Shortest paths: label setting algorithms 6 The radix heap algorithm 7 Shortest paths: label correcting algorithms Problem set 2 due 8 Algorithm analysis 9 Basic algorithms for the maximum flow problem 10 Midterm 1 (Ses #1-8) 11 Combinatorial applications of maximum flows Project team and topic selection due 12 Preflow push algorithms 13 More on preflow push algorithms Problem set 3 due 14 Minimum cost flow: basic algorithms 15 Minimum cost flow: polynomial time algorithms Problem set 4 due 16 Applications of network flows; Linear programming review 17 The network simplex algorithm Project outline due 18 NP-completeness 19 Midterm 2 (Ses #9-17) 20 Lagrangian relaxation 1 21 Lagrangian relaxation 2 22 Multicommodity flows 1 Problem set 5 due 23 Multicommodity flows 2 24 Presentations of class projects Project report due 25 Presentations of class projects (cont.) "}
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/assignments/data.json</guid>
+      <description>The table below contains problem set assignments and due dates. Problems are from the course textbook, [BT] = Bertsimas, Dimitris, and John Tsitsiklis. Introduction to Linear Optimization. Belmont, MA: Athena Scientific, 1997. ISBN: 9781886529199.
+ASSN # PROBLEMS DUE DATES 1 [BT]: 1.2, 1.5, 1.11
+Computation question: Consider the production planning problem on pgs 7-10 in [BT]. Using AMPL, solve the linear program as presented for this problem on pg 9. Hand in a printout of your .</description>
+    </item>
+    
+    <item>
+      <title>data.txt</title>
+      <link>/resources/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/data.json</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

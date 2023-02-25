@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recitations on MIT OpenCourseWare</title>
+    <link>/resources/recitations/</link>
+    <description>Recent content in Recitations on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/recitations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT6_251JF09_rec01.pdf</title>
+      <link>/resources/mit6_251jf09_rec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec01/data.json</guid>
+      <description>This resource contains information about introduction to mathematical programming.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_251JF09_rec02.pdf</title>
+      <link>/resources/mit6_251jf09_rec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec02/data.json</guid>
+      <description>This resource contains information about linear algebra review.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_251JF09_rec03.pdf</title>
+      <link>/resources/mit6_251jf09_rec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec03/data.json</guid>
+      <description>This resource contains information about geometry of linear programming.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_251JF09_rec04.pdf</title>
+      <link>/resources/mit6_251jf09_rec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec04/data.json</guid>
+      <description>This resource contains information about simplex method.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_251JF09_rec05.pdf</title>
+      <link>/resources/mit6_251jf09_rec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec05/data.json</guid>
+      <description>This resource contains information about duality theory.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_251JF09_rec06.pdf</title>
+      <link>/resources/mit6_251jf09_rec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec06/data.json</guid>
+      <description>This resource contains information about network flows.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_251JF09_rec07.pdf</title>
+      <link>/resources/mit6_251jf09_rec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec07/data.json</guid>
+      <description>This resource contains information about ellipsoid method.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_251JF09_rec08.pdf</title>
+      <link>/resources/mit6_251jf09_rec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_251jf09_rec08/data.json</guid>
+      <description>This resource contains information about semidefinite programming.</description>
+    </item>
+    
+    <item>
+      <title>Recitations</title>
+      <link>/pages/recitations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/recitations/data.json</guid>
+      <description>Recitation notes courtesy of Chaithanya Bandi. Used with permission.
+SES # TOPICS FILES R1 Introduction to mathematical programming (PDF) R2 Linear algebra review (PDF) R3 Geometry of linear programming (PDF) R4 Simplex method (PDF) R5 Duality theory (PDF) R6 Network flows (PDF) R7 Ellipsoid method (PDF) R8 Semidefinite programming (PDF) </description>
+    </item>
+    
+  </channel>
+</rss>

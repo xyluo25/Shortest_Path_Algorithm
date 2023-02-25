@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/projects/data.json</guid>
+      <description>Project Description The project provides an opportunity for students to learn about a topic of interest to them as well as to teach other students in the class. Each project team should consist of two or three students. The project consists of a written paper (typically 10 to 15 double spaced pages) as well as an in-class oral presentation of 20 minutes. The project should have some connection to &amp;ldquo;Network Optimization&amp;rdquo; and should be original.</description>
+    </item>
+    
+  </channel>
+</rss>

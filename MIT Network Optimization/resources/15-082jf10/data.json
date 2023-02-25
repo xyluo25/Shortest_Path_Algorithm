@@ -1,0 +1,8 @@
+{
+  "title":"15-082jf10.jpg",
+  "description": "Network representation of the transshipment problem. ",
+  "file": "/courses/15-082j-network-optimization-fall-2010/46e0640fbe139dc81923049424ef58a5_15-082jf10.jpg",
+  "learning_resource_types": [],
+  "resource_type": "Image",
+  "file_type": "image/jpeg",
+  "image_metadata": {"caption":"Given demand, production capabilities, and costs of shipment, what is the minimum cost method for satisfying demand? This problem can be solved using a minimum cost flow algorithm, which is covered in this course. (Diagram by Prof. James Orlin.)","credit":"Image by Prof. Orlin","image-alt":"Network representation of a transshipment problem."}}

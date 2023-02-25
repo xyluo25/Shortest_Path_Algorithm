@@ -1,0 +1,314 @@
+[
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "PriorityQueue",
+        "importPath": "queue",
+        "description": "queue",
+        "isExtraImport": true,
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Network",
+        "kind": 6,
+        "importPath": "A star.A_star",
+        "description": "A star.A_star",
+        "peekOfCode": "class Network():\n    def __init__(self):\n        self.source_node_id=None\n        self.sink_node_id=None\n        self.node_id_list=[]\n        self.node_x_coord={}\n        self.node_y_coord={}\n        self.node_neighbors={}\n        self.number_of_nodes=0\n        self.link_list=[]",
+        "detail": "A star.A_star",
+        "documentation": {}
+    },
+    {
+        "label": "read_data",
+        "kind": 2,
+        "importPath": "A star.A_star",
+        "description": "A star.A_star",
+        "peekOfCode": "def read_data(node_file,link_file,net):\n    #read node csv file\n    with open(node_file) as f:\n        node_reader = csv.reader(f)\n        next(node_reader)\n        for row in node_reader:\n            net.node_id_list.append(int(row[0]))\n            net.node_x_coord[int(row[0])]=float(row[1])\n            net.node_y_coord[int(row[0])]=float(row[2])\n            net.node_neighbors[int(row[0])]=[]",
+        "detail": "A star.A_star",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_remaining_distance",
+        "kind": 2,
+        "importPath": "A star.A_star",
+        "description": "A star.A_star",
+        "peekOfCode": "def evaluate_remaining_distance(current,net):\n    return abs(net.node_x_coord[current]-net.node_x_coord[net.sink_node_id])\\\n           +abs(net.node_y_coord[current]-net.node_y_coord[net.sink_node_id])\ndef show_shortest_path(net,path_node_id_list):\n    for from_node_id,to_node_id in net.link_list:\n        x_coords=[net.node_x_coord[from_node_id],net.node_x_coord[to_node_id]]\n        y_coords=[net.node_y_coord[from_node_id],net.node_y_coord[to_node_id]]\n        plt.plot(x_coords,y_coords,color='black',linewidth=0.5)\n    path_x_coord=[]\n    path_y_coord=[]",
+        "detail": "A star.A_star",
+        "documentation": {}
+    },
+    {
+        "label": "show_shortest_path",
+        "kind": 2,
+        "importPath": "A star.A_star",
+        "description": "A star.A_star",
+        "peekOfCode": "def show_shortest_path(net,path_node_id_list):\n    for from_node_id,to_node_id in net.link_list:\n        x_coords=[net.node_x_coord[from_node_id],net.node_x_coord[to_node_id]]\n        y_coords=[net.node_y_coord[from_node_id],net.node_y_coord[to_node_id]]\n        plt.plot(x_coords,y_coords,color='black',linewidth=0.5)\n    path_x_coord=[]\n    path_y_coord=[]\n    for node_id in path_node_id_list:\n        path_x_coord.append(net.node_x_coord[node_id])\n        path_y_coord.append(net.node_y_coord[node_id])",
+        "detail": "A star.A_star",
+        "documentation": {}
+    },
+    {
+        "label": "find_shortest_path",
+        "kind": 2,
+        "importPath": "A star.A_star",
+        "description": "A star.A_star",
+        "peekOfCode": "def find_shortest_path(net):\n    frontier = PriorityQueue()\n    frontier.put((net.source_node_id,0))\n    came_from = {}\n    cost_so_far = {}\n    came_from[net.source_node_id] = None\n    cost_so_far[net.source_node_id] = 0\n    while not frontier.empty():\n        current=frontier.get()[0]\n        if current == net.sink_node_id:",
+        "detail": "A star.A_star",
+        "documentation": {}
+    },
+    {
+        "label": "Network",
+        "kind": 6,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "description": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "peekOfCode": "class Network():\n    def __init__(self):\n        self.node_neighbors={}\n        self.node_x_coord={}\n        self.node_y_coord={}\n        self.node_id_list=[]\n        self.number_of_nodes=0\n        self.number_of_check={}\n        self.link_cost={}\n        self.link_list=[]",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "documentation": {}
+    },
+    {
+        "label": "read_network_file",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "description": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "peekOfCode": "def read_network_file(node_file,link_file,network):\n    # read node csv file\n    with open(node_file) as node_f:\n        node_reader=csv.reader(node_f)\n        next(node_reader)\n        for row in node_reader:\n            network.node_id_list.append(int(row[0]))\n            network.node_x_coord[int(row[0])] = float(row[1])\n            network.node_y_coord[int(row[0])] = float(row[2])\n            network.node_neighbors[int(row[0])] = []",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "documentation": {}
+    },
+    {
+        "label": "show_shortest_path",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "description": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "peekOfCode": "def show_shortest_path(net,path_node_id_list):\n    for from_node_id,to_node_id in net.link_list:\n        x_coords=[net.node_x_coord[from_node_id],net.node_x_coord[to_node_id]]\n        y_coords=[net.node_y_coord[from_node_id],net.node_y_coord[to_node_id]]\n        plt.plot(x_coords,y_coords,color='black',linewidth=0.5)\n    path_x_coord=[]\n    path_y_coord=[]\n    for node_id in path_node_id_list:\n        path_x_coord.append(net.node_x_coord[node_id])\n        path_y_coord.append(net.node_y_coord[node_id])",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "documentation": {}
+    },
+    {
+        "label": "save_to_file",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "description": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "peekOfCode": "def save_to_file(network,path_node_id_list,path_cost,node_predecessor=None,node_label_cost=None):\n    outfile = open('shortest_path.csv', 'w', newline='', errors='ignore')\n    write = csv.writer(outfile)\n    write.writerow(['source_node_id', 'sink_node_id', 'total cost', 'path node id list'])\n    path = '-'.join([str(i) for i in path_node_id_list])\n    line = [network.source_node_id, network.sink_node_id,path_cost,path]\n    write.writerow(line)\n    # whether save the shortest path information from  the source node to other nodes\n    if node_predecessor and node_label_cost:\n        try:",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "documentation": {}
+    },
+    {
+        "label": "find_shortest_path",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "description": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "peekOfCode": "def find_shortest_path(network):\n    node_predecessor = {}\n    node_predecessor[network.source_node_id]=-1\n    node_label_cost = { node_id:float('inf') for node_id in network.node_id_list}\n    node_label_cost[network.source_node_id] = 0\n    SEList = deque()\n    SEList_all = []\n    SEList.append(network.source_node_id)\n    SEList_all.append(network.source_node_id)\n    while len(SEList)>0:",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm detcecting negative cycles",
+        "documentation": {}
+    },
+    {
+        "label": "node_label_cost[g_origin-1]",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.Deque label correcting algorithm",
+        "description": "label_correcting_algorithm.Deque label correcting algorithm",
+        "peekOfCode": "node_label_cost[g_origin-1] = 0\n#读取网络弧数据\ndf_link=pd.read_csv('road_link.csv')\ndf_link=df_link.iloc[:,:].values\nfor i in range(len(df_link)):\n    g_link_list.append((df_link[i,1],df_link[i,2]))\n    Distance[df_link[i,1]-1,df_link[i,2]-1]=df_link[i,3]\n    g_adjacent_arc_list[df_link[i,1]].append(df_link[i,2])\nSE_LIST=[g_origin]\ng_node_status[g_origin-1]=1",
+        "detail": "label_correcting_algorithm.Deque label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "file_data",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.Deque label correcting algorithm",
+        "description": "label_correcting_algorithm.Deque label correcting algorithm",
+        "peekOfCode": "file_data = pd.DataFrame(g_shortest_path, index=range(len(g_shortest_path)),columns=col)\nfile_data.to_csv('agent.csv',index=False)",
+        "detail": "label_correcting_algorithm.Deque label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "Network",
+        "kind": 6,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "description": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "peekOfCode": "class Network():\n    def __init__(self):\n        self.node_neighbors={}\n        self.node_x_coord={}\n        self.node_y_coord={}\n        self.node_id_list=[]\n        self.number_of_nodes=0\n        self.link_cost={}\n        self.link_list=[]\n        self.source_node_id=0",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "documentation": {}
+    },
+    {
+        "label": "read_network_file",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "description": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "peekOfCode": "def read_network_file(node_file,link_file,network):\n    # read node csv file\n    with open(node_file) as node_f:\n        node_reader=csv.reader(node_f)\n        next(node_reader)\n        for row in node_reader:\n            network.node_id_list.append(int(row[0]))\n            network.node_x_coord[int(row[0])] = float(row[1])\n            network.node_y_coord[int(row[0])] = float(row[2])\n            network.node_neighbors[int(row[0])] = []",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "documentation": {}
+    },
+    {
+        "label": "show_shortest_path",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "description": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "peekOfCode": "def show_shortest_path(net,path_node_id_list):\n    for from_node_id,to_node_id in net.link_list:\n        x_coords=[net.node_x_coord[from_node_id],net.node_x_coord[to_node_id]]\n        y_coords=[net.node_y_coord[from_node_id],net.node_y_coord[to_node_id]]\n        plt.plot(x_coords,y_coords,color='black',linewidth=0.5)\n    path_x_coord=[]\n    path_y_coord=[]\n    for node_id in path_node_id_list:\n        path_x_coord.append(net.node_x_coord[node_id])\n        path_y_coord.append(net.node_y_coord[node_id])",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "documentation": {}
+    },
+    {
+        "label": "save_to_file",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "description": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "peekOfCode": "def save_to_file(network,path_node_id_list,path_cost,node_predecessor=None,node_label_cost=None):\n    outfile = open('shortest_path.csv', 'w', newline='', errors='ignore')\n    write = csv.writer(outfile)\n    write.writerow(['source_node_id', 'sink_node_id', 'total cost', 'path node id list'])\n    path = '-'.join([str(i) for i in path_node_id_list])\n    line = [network.source_node_id, network.sink_node_id,path_cost,path]\n    write.writerow(line)\n    # whether save the shortest path information from  the source node to other nodes\n    if node_predecessor and node_label_cost:\n        try:",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "documentation": {}
+    },
+    {
+        "label": "find_shortest_path",
+        "kind": 2,
+        "importPath": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "description": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "peekOfCode": "def find_shortest_path(network):\n    node_predecessor = {}\n    node_predecessor[network.source_node_id]=None\n    node_label_cost = { node_id:float('inf') for node_id in network.node_id_list}\n    node_label_cost[network.source_node_id] = 0\n    SEList = deque()\n    SEList_all = []\n    SEList.append(network.source_node_id)\n    SEList_all.append(network.source_node_id)\n    while len(SEList)>0:",
+        "detail": "label_correcting_algorithm.deque label correcting algorithm_v2",
+        "documentation": {}
+    },
+    {
+        "label": "node_label_cost[g_origin-1]",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.FIFO label correcting algorithm",
+        "description": "label_correcting_algorithm.FIFO label correcting algorithm",
+        "peekOfCode": "node_label_cost[g_origin-1] = 0\n#读取网络弧数据\ndf_link=pd.read_csv('road_link.csv')\ndf_link=df_link.iloc[:,:].values\nfor i in range(len(df_link)):\n    g_link_list.append((df_link[i,1],df_link[i,2]))\n    Distance[df_link[i,1]-1,df_link[i,2]-1]=df_link[i,3]\n    g_adjacent_arc_list[df_link[i,1]].append(df_link[i,2])\nSE_LIST=[g_origin]\ng_node_status[g_origin-1]=1",
+        "detail": "label_correcting_algorithm.FIFO label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "file_data",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.FIFO label correcting algorithm",
+        "description": "label_correcting_algorithm.FIFO label correcting algorithm",
+        "peekOfCode": "file_data = pd.DataFrame(g_shortest_path, index=range(len(g_shortest_path)),columns=col)\nfile_data.to_csv('agent.csv',index=False)",
+        "detail": "label_correcting_algorithm.FIFO label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "file_data",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.Floyd-Warshall Algorithm",
+        "description": "label_correcting_algorithm.Floyd-Warshall Algorithm",
+        "peekOfCode": "file_data = pd.DataFrame(g_shortest_path, index=range(len(g_shortest_path)),columns=col)\nfile_data.to_csv('agent.csv',index=False)",
+        "detail": "label_correcting_algorithm.Floyd-Warshall Algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "node_label_cost[g_origin-1]",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.generic label correcting algorithm",
+        "description": "label_correcting_algorithm.generic label correcting algorithm",
+        "peekOfCode": "node_label_cost[g_origin-1] = 0\n#读取网络弧数据\ndf_link=pd.read_csv('road_link.csv')\ndf_link=df_link.iloc[:,:].values\nfor i in range(len(df_link)):\n    g_link_list.append((df_link[i,1],df_link[i,2]))\n    Distance[df_link[i,1]-1,df_link[i,2]-1]=df_link[i,3]\n\"\"\"最短路径求解：扫描网络弧，依据检查最优性条件更新距离标签\"\"\"\nwhile True:\n    v=0# 未满足最优性条件的节点个数",
+        "detail": "label_correcting_algorithm.generic label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "file_data",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.generic label correcting algorithm",
+        "description": "label_correcting_algorithm.generic label correcting algorithm",
+        "peekOfCode": "file_data = pd.DataFrame(g_shortest_path, index=range(len(g_shortest_path)),columns=col)\nfile_data.to_csv('agent.csv',index=False)",
+        "detail": "label_correcting_algorithm.generic label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "node_label_cost[g_origin-1]",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.modified label correcting algorithm",
+        "description": "label_correcting_algorithm.modified label correcting algorithm",
+        "peekOfCode": "node_label_cost[g_origin-1] = 0\n#读取网络弧数据\ndf_link=pd.read_csv('road_link.csv')\ndf_link=df_link.iloc[:,:].values\nfor i in range(len(df_link)):\n    g_link_list.append((df_link[i,1],df_link[i,2]))\n    Distance[df_link[i,1]-1,df_link[i,2]-1]=df_link[i,3]\n    g_adjacent_arc_list[df_link[i,1]].append(df_link[i,2])\n\"\"\"最短路径求解：扫描网络弧，依据检查最优性条件更新距离标签\"\"\"\nSE_LIST=[g_origin]",
+        "detail": "label_correcting_algorithm.modified label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "file_data",
+        "kind": 5,
+        "importPath": "label_correcting_algorithm.modified label correcting algorithm",
+        "description": "label_correcting_algorithm.modified label correcting algorithm",
+        "peekOfCode": "file_data = pd.DataFrame(g_shortest_path, index=range(len(g_shortest_path)),columns=col)\nfile_data.to_csv('agent.csv',index=False)",
+        "detail": "label_correcting_algorithm.modified label correcting algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "ShortestPathAlgorithm",
+        "kind": 6,
+        "importPath": "shortest_path_algorithm",
+        "description": "shortest_path_algorithm",
+        "peekOfCode": "class ShortestPathAlgorithm:\n    def __init__(self, graph):\n        self.graph = graph\n        self.path = []\n        self.cost = 0",
+        "detail": "shortest_path_algorithm",
+        "documentation": {}
+    }
+]

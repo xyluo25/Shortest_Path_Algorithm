@@ -1,0 +1,3152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+
+
+    
+    <link href="../../static_shared/css/course_v2.f2f30.css" rel="stylesheet">
+    
+
+  
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMQZ25T');</script>
+    
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  
+
+  <meta name="description" content="MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity">
+  <meta name="keywords" content="opencourseware,MIT OCW,courseware,MIT opencourseware,Free Courses,class notes,class syllabus,class materials,tutorials,online courses,MIT courses">
+  
+  <meta property="og:site_name" content="MIT OpenCourseWare">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ocw.mit.edu/https://ocw.mit.edu/resources/lecture-notes/" />
+  <meta property="og:title" content="Lecture Notes | Network Optimization | Sloan School of Management | MIT OpenCourseWare" />
+  <meta property="og:description" content="MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity" />
+
+  
+
+
+
+<meta property="og:image" content="../../static_resources/46e0640fbe139dc81923049424ef58a5_15-082jf10.jpg" />
+
+  
+  <link rel="canonical" href="https://ocw.mit.edu/https://ocw.mit.edu/resources/lecture-notes/" />
+
+  <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type" : "WebPage",
+        "name": "MIT OpenCourseWare",
+        "description": "MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity",
+        "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/", 
+        "publisher": {
+          "@type": "CollegeOrUniversity",
+          "name": "MIT OpenCourseWare"
+        }
+      }
+  </script>
+
+  <title>Lecture Notes | Network Optimization | Sloan School of Management | MIT OpenCourseWare</title>
+  
+  
+
+
+    
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <style>
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(../../static_shared/fonts/MaterialIcons-Regular.woff2) format('woff2'),
+      url(../../static_shared/fonts/MaterialIcons-Regular.woff) format('woff'),
+      url(../../static_shared/fonts/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Material Icons Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local("MaterialIcons-Round"),
+    url(../../static_shared/fonts/MaterialIconsRound-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Cardo Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Cardo'),
+      local('Cardo-Bold'),
+      url(../../static_shared/fonts/Cardo-Bold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Cardo Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Cardo'),
+      local('Cardo-Italic'),
+      url(../../static_shared/fonts/Cardo-Italic.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Helvetica Light';
+    font-style: normal`;
+    font-weight: 400;
+    src: local('Helvetica Light'),
+      local('Helvetica-Light'),
+      url(../../static_shared/fonts/Helvetica-Light.ttf) format('truetype');
+  }
+  </style>
+</head>
+
+<body class="course-home-page">
+  
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMQZ25T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  
+  <div class="overflow-auto">
+    <div
+  id="mobile-course-nav"
+  class="navbar-offcanvas offcanvas-toggle offcanvas-toggle-close medium-and-below-only drawer">
+  <h3 class="my-4 d-flex align-items-center justify-content-between">
+    Browse Course Material
+    <button
+      class="btn"
+      type="button"
+      aria-label="Close Course Menu"
+      onclick="$('#mobile-course-nav-toggle').click();"
+      >
+      <img
+        src="../../static_shared/images/close_small.svg"
+        alt=""
+        width="12px"
+      />
+    </button>
+  </h3>
+  
+
+<nav class="course-nav">
+  <ul class="w-100 m-auto list-unstyled">
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="b3d2c2b4-3861-d40a-c03e-1468803eb941"
+        href="../../pages/syllabus/index.html">
+        Syllabus
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_b3d2c2b4-3861-d40a-c03e-1468803eb941">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="fade7c4f-287d-3005-0f81-079045b8e3ea"
+        href="../../pages/calendar/index.html">
+        Calendar
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_fade7c4f-287d-3005-0f81-079045b8e3ea">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="18d0dfbe-e4fb-f8e0-bbec-099a2aa95f05"
+        href="../../pages/lecture-notes/index.html">
+        Lecture Notes
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_18d0dfbe-e4fb-f8e0-bbec-099a2aa95f05">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="c0622d3f-4a71-076d-a396-f762c731eb5c"
+        href="../../pages/assignments/index.html">
+        Assignments
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_c0622d3f-4a71-076d-a396-f762c731eb5c">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="80ce3ddc-c65b-d259-b0d3-3e07ab044c86"
+        href="../../pages/exams/index.html">
+        Exams
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_80ce3ddc-c65b-d259-b0d3-3e07ab044c86">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="24bc2a90-8e89-f07c-15dd-a976e5e2d263"
+        href="../../pages/projects/index.html">
+        Projects
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_24bc2a90-8e89-f07c-15dd-a976e5e2d263">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="9789effc-535c-9390-09dc-672f2b2c9185"
+        href="../../pages/animations/index.html">
+        Animations
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_9789effc-535c-9390-09dc-672f2b2c9185">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+  </ul>
+</nav>
+
+</div>
+
+    <div
+  id="course-info-drawer"
+  class="bg-faded pt-3 bg-light navbar-offcanvas navbar-offcanvas-right medium-and-below-only drawer"
+>
+  <div class="col-12">
+    <button
+      class="btn close-mobile-course-info"
+      type="button"
+      aria-label="Close Course Info"
+      onclick="$('#mobile-course-info-toggle').click();"
+      >
+      <img
+        class=""
+        src="../../static_shared/images/close_small.svg"
+        alt=""
+        width="12px"
+      />
+    </button>
+  </div>
+    
+
+<div class="course-info">
+  <div class="course-detail-title bg-light-gray">
+    <div class="d-flex">
+      <div class="font-black py-2 pl-3 m-0">
+        Course Info
+      </div>
+      
+      <button
+        type="button"
+        class="btn close-course-info large-and-above-only"
+        id=""
+        aria-label="Close Course Info"
+        >
+        <img
+          class="toggle navbar-toggle offcanvas-toggle"
+          src="../../static_shared/images/close_small.svg"
+          alt=""
+          width="12px"
+        />
+      </button>
+      
+    </div>
+  </div>
+  <div class="position-relative px-3 mt-4">
+    <div class="row">
+      <div class="col-12 ">
+        
+        <div class="">
+          
+          <div class="panel-course-info-title ">
+            Instructor
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-instructor strip-link-offline"  href="https://ocw.mit.edu/search?q=Prof.&#43;James&#43;Orlin">Prof. James Orlin</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        <div class="mt-4">
+          
+          <div class="panel-course-info-title ">
+            Departments
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Sloan&#43;School&#43;of&#43;Management">Sloan School of Management</a>
+  </li>
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Electrical&#43;Engineering&#43;and&#43;Computer&#43;Science">Electrical Engineering and Computer Science</a>
+  </li>
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Engineering&#43;Systems&#43;Division">Engineering Systems Division</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        
+        <div class="mt-4">
+          <div class="panel-course-info-title ">
+            As Taught In
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            Fall
+            
+              2010
+            
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <div class="panel-course-info-title ">
+            Level
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            
+              
+                <a class=" strip-link-offline"  href="https://ocw.mit.edu/search?l=Graduate">Graduate</a><br />
+              
+            
+          </div>
+        </div>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+
+<div class=" mt-4">
+  <div class="panel-course-info-title ">
+    Topics
+  </div>
+  <ul class="list-unstyled pb-2 m-0 panel-course-info-text">
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_mobile_0"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_mobile_0"
+    aria-expanded="true">
+    <i class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Business">Business</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse show" id="subtopic-container_mobile_0">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Information&#43;Technology">Information Technology</a></span>
+  </div>
+  <div class="collapse show" id="speciality-container_mobile_0_0">
+    
+  </div>
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Project&#43;Management">Project Management</a></span>
+  </div>
+  <div class="collapse show" id="speciality-container_mobile_0_1">
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_mobile_1"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_mobile_1"
+    aria-expanded="false">
+    <i class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Engineering">Engineering</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse" id="subtopic-container_mobile_1">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-4 ">
+    
+    <a class="topic-toggle"
+      href="#speciality-container_mobile_1_0"
+      data-toggle="collapse"
+      aria-controls="speciality-container_mobile_1_0"
+      aria-expanded="false">
+      <i class="material-icons"></i>
+    </a>
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Computer&#43;Science">Computer Science</a></span>
+  </div>
+  <div class="collapse" id="speciality-container_mobile_1_0">
+    
+    <div class="pt-1 pb-1 pl-5">
+      <span class="topic-text-wrapper">
+        
+        <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Algorithms&#43;and&#43;Data&#43;Structures">Algorithms and Data Structures</a></span>
+    </div>
+    
+    <div class="pt-1 pb-1 pl-5">
+      <span class="topic-text-wrapper">
+        
+        <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Computer&#43;Networks">Computer Networks</a></span>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-4 ">
+    
+    <a class="topic-toggle"
+      href="#speciality-container_mobile_1_1"
+      data-toggle="collapse"
+      aria-controls="speciality-container_mobile_1_1"
+      aria-expanded="false">
+      <i class="material-icons"></i>
+    </a>
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Systems&#43;Engineering">Systems Engineering</a></span>
+  </div>
+  <div class="collapse" id="speciality-container_mobile_1_1">
+    
+    <div class="pt-1 pb-1 pl-5">
+      <span class="topic-text-wrapper">
+        
+        <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Systems&#43;Optimization">Systems Optimization</a></span>
+    </div>
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_mobile_2"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_mobile_2"
+    aria-expanded="false">
+    <i class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Mathematics">Mathematics</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse" id="subtopic-container_mobile_2">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Applied&#43;Mathematics">Applied Mathematics</a></span>
+  </div>
+  <div class="collapse" id="speciality-container_mobile_2_0">
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      
+  </ul>
+</div>
+
+  
+
+
+
+<div class="">
+  <div class="course-detail-title panel-course-info-title mt-3">
+    Learning Resource Types
+  </div>
+  <div>
+    <div class="row d-inline m-0">
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i class="material-icons pr-1">assignment</i>
+    <span>Problem Sets</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i class="material-icons pr-1">notes</i>
+    <span>Lecture Notes</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i class="material-icons pr-1">group_work</i>
+    <span>Projects</span>
+  </div>
+</div>
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+<hr>
+<div class="pb-3">
+  <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
+    role="button"
+    href="../../download/index.html">
+    <div class="text-center w-100">Browse Resources</div>
+  </a>
+</div>
+
+</div>
+
+    
+
+
+
+
+
+<div id="mobile-header" class="position-relative bg-black medium-and-below-only">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black d-flex">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="material-icons display-4 text-white align-bottom">menu</i>
+    </button>
+    <div class="mx-auto">
+      <a href="https://ocw.mit.edu/">
+        <img width="250" src="../../static_shared/images/ocw_logo_white_v2.svg" alt="MIT OpenCourseWare"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto pl-2 pt-2">
+        <li class="nav-item"></li>
+        <li class="nav-item">
+          <a class="nav-link"  href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&amp;utm_medium=homepage_banner&amp;utm_campaign=nextgen_home">Give Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="https://ocw.mit.edu/about">About OCW</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  target="_blank"  href="https://mitocw.zendesk.com/hc/en-us">Help &amp; Faqs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="https://ocw.mit.edu/contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<div id="desktop-header">
+  <div class="contents">
+    <div class="left">
+      <div class="ocw-logo mr-6">
+        <a href="https://ocw.mit.edu/">
+          <img src="../../static_shared/images/ocw_logo_white_v2.svg" alt="MIT OpenCourseWare" />
+        </a>
+      </div>
+    </div>
+    <div class="right">
+      
+      <a class="give-button-header font-weight-bold py-2 px-3"  href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&amp;utm_medium=homepage_banner&amp;utm_campaign=nextgen_home">give now</a>
+      <a class="text-white text-decoration-none font-weight-bold pl-5 pr-3 py-2"  href="https://ocw.mit.edu/about">about ocw</a>
+      <a class="text-white text-decoration-none font-weight-bold px-3 py-2"  target="_blank"  href="https://mitocw.zendesk.com/hc/en-us">help &amp; faqs</a>
+      <a class="text-white text-decoration-none font-weight-bold px-3 py-2"  href="https://ocw.mit.edu/contact">contact us</a>
+    </div>
+  </div>
+</div>
+
+    
+    
+
+<div id="course-banner" class="p-0">
+  <div class="max-content-width course-banner-content m-auto py-3">
+    
+    <span class="course-number-term-detail">15.082J | Fall 2010 | Graduate</span>
+    <br>
+    <a
+      class="text-capitalize display-4 m-0 text-white"
+      href="../../index.html"
+    >Network Optimization</a>
+  </div>
+</div>
+
+
+    <div id="course-main-content">
+      <div class="row">
+        <div class="col-12 course-home-grid">
+          <div class="medium-and-below-only">
+            <div class="d-flex align-items-center mb-3">
+              <div class="col-6 px-0">
+                <div>
+  <button
+    id="mobile-course-nav-toggle"
+    class="mobile-course-nav-toggle-btn d-inline-flex align-items-center offcanvas-toggle"
+    data-toggle="offcanvas"
+    data-target="#mobile-course-nav"
+  >
+    <img src="../../static_shared/images/expand.svg" alt=""/>
+    <span class="pl-1">Menu</span>
+  </button>
+</div>
+
+              </div>
+              <div class="col-6 px-0">
+                
+
+
+  <button 
+    class="btn btn-link float-right mobile-course-info-toggle-btn toggle navbar-toggle offcanvas-toggle"
+    id="mobile-course-info-toggle"
+    data-toggle="offcanvas" 
+    data-target="#course-info-drawer">
+    More Info
+  </button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row course-cards">
+        <div class="col-2 course-home-grid large-and-above-only">  
+          <div class="card">
+  <div class="card-body pr-2">
+    
+
+<nav class="course-nav">
+  <ul class="w-100 m-auto list-unstyled">
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="b3d2c2b4-3861-d40a-c03e-1468803eb941"
+        href="../../pages/syllabus/index.html">
+        Syllabus
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_b3d2c2b4-3861-d40a-c03e-1468803eb941">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="fade7c4f-287d-3005-0f81-079045b8e3ea"
+        href="../../pages/calendar/index.html">
+        Calendar
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_fade7c4f-287d-3005-0f81-079045b8e3ea">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="18d0dfbe-e4fb-f8e0-bbec-099a2aa95f05"
+        href="../../pages/lecture-notes/index.html">
+        Lecture Notes
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_18d0dfbe-e4fb-f8e0-bbec-099a2aa95f05">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="c0622d3f-4a71-076d-a396-f762c731eb5c"
+        href="../../pages/assignments/index.html">
+        Assignments
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_c0622d3f-4a71-076d-a396-f762c731eb5c">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="80ce3ddc-c65b-d259-b0d3-3e07ab044c86"
+        href="../../pages/exams/index.html">
+        Exams
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_80ce3ddc-c65b-d259-b0d3-3e07ab044c86">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="24bc2a90-8e89-f07c-15dd-a976e5e2d263"
+        href="../../pages/projects/index.html">
+        Projects
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_24bc2a90-8e89-f07c-15dd-a976e5e2d263">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="9789effc-535c-9390-09dc-672f2b2c9185"
+        href="../../pages/animations/index.html">
+        Animations
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_9789effc-535c-9390-09dc-672f2b2c9185">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+  </ul>
+</nav>
+
+  </div>
+</div>
+
+        </div>
+        <div class="col-sm-12 col-lg-10 course-home-grid">
+          <div class="">
+            <div class="card">
+              <div class="d-flex">
+                <div class="col-12 p-0" id="main-course-section">
+                  <div class="card-body">
+                    
+                      <button 
+                        type="button" 
+                        class="btn show-course-info large-and-above-only"
+                        id="show-desktop-course-drawer"
+                        aria-label="Show Course Info"
+                        >
+                        <img src="../../static_shared/images/left_arrow.svg" alt=""/>
+                      </button>
+                     
+                    
+<div class="mb-2">
+  <header>
+  <div class="course-section-title-container ">
+    <div id="course-title">
+      
+      <h2 class="pb-1 mb-1">Lecture Notes</h2>
+    </div>
+  </div>
+</header>
+
+  <article class="content pt-3 mt-1">
+    <main id="course-content-section"></main>
+  </article>
+</div>
+
+
+<div class="mb-5">
+  
+  
+
+
+
+
+
+  
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/084aaba151e144f852e66099c7ea1213_MIT15_082JF10_lec01.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec01/">
+          MIT15_082JF10_lec01.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/ec15e9b253a8b4f13d950249432a092e_MIT15_082JF10_lec01.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec01-1/">
+          MIT15_082JF10_lec01.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/7bea14a27536e04897f2338cb1938144_MIT15_082JF10_lec02.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec02/">
+          MIT15_082JF10_lec02.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/0cb97d32963a86562ebc6f88ceae7319_MIT15_082JF10_lec02.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec02-1/">
+          MIT15_082JF10_lec02.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/487a2b4c96b8a42c4c3e6372b71b7be6_MIT15_082JF10_lec03.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec03/">
+          MIT15_082JF10_lec03.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/cf7d00560c766dae742fc63b6979fdfc_MIT15_082JF10_lec03.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec03-1/">
+          MIT15_082JF10_lec03.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/0911d1fe02b68af5127a53657f25b5a8_MIT15_082JF10_lec04.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec04/">
+          MIT15_082JF10_lec04.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/865cbba041c80ae94a9133a2fdaf06d4_MIT15_082JF10_lec04.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec04-1/">
+          MIT15_082JF10_lec04.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/d0d0157f8aad0ea926accdd22f863d85_MIT15_082JF10_lec05.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec05/">
+          MIT15_082JF10_lec05.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/2eb831f85e01c25c93e237ad0648f0c1_MIT15_082JF10_lec05.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec05-1/">
+          MIT15_082JF10_lec05.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/6852db65d4a72816ee86a35e0e546669_MIT15_082JF10_lec06.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec06/">
+          MIT15_082JF10_lec06.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/9e96896791da5925cee2ae11228751fa_MIT15_082JF10_lec06.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec06-1/">
+          MIT15_082JF10_lec06.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/614add9c5fbbca47c0ad5fa410ae985c_MIT15_082JF10_lec07.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec07/">
+          MIT15_082JF10_lec07.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/f63b3dada273693df4f44f20cd238019_MIT15_082JF10_lec07.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec07-1/">
+          MIT15_082JF10_lec07.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/037acef4ee17c444a2cdbe9ef873a11b_MIT15_082JF10_lec08.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec08/">
+          MIT15_082JF10_lec08.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/89a4f890ee77f2d7651695cc609aeed7_MIT15_082JF10_lec08.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec08-1/">
+          MIT15_082JF10_lec08.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/f04ed4c62068421e1184f3114721713c_MIT15_082JF10_lec09.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec09/">
+          MIT15_082JF10_lec09.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/4a685a6bc6f742dfe614d303635fa62f_MIT15_082JF10_lec09.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec09-1/">
+          MIT15_082JF10_lec09.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/a0613ed5a295ad7976afe33a7f888819_MIT15_082JF10_lec10.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec10/">
+          MIT15_082JF10_lec10.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/c5ce6adf28bb9698b5c72c7d5d22316b_MIT15_082JF10_lec10.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec10-1/">
+          MIT15_082JF10_lec10.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/26a659cf280acd0fdd7f1e049779ddb7_MIT15_082JF10_lec11.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec11/">
+          MIT15_082JF10_lec11.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/0ec5aafb912522fa3f539bc17f5a94f8_MIT15_082JF10_lec11.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec11-1/">
+          MIT15_082JF10_lec11.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/29f38b733da9df1d7618f2e784a62be1_MIT15_082JF10_lec12.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec12/">
+          MIT15_082JF10_lec12.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/ac8e7ad3ac3e01eddcc22dab7b0e0d5b_MIT15_082JF10_lec12.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec12-1/">
+          MIT15_082JF10_lec12.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/f4c38d706cbd5b88d880b47e3d3d7c77_MIT15_082JF10_lec13.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec13/">
+          MIT15_082JF10_lec13.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/8334eaa479f1d7841a57e3138bdd319d_MIT15_082JF10_lec13.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec13-1/">
+          MIT15_082JF10_lec13.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/65522276ac3b45b8f317cb423f6e9187_MIT15_082JF10_lec14.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec14/">
+          MIT15_082JF10_lec14.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/35734f3a96983e590c207a6d7be54eb9_MIT15_082JF10_lec14.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec14-1/">
+          MIT15_082JF10_lec14.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/87ee338a701dcd52784c86daef642113_MIT15_082JF10_lec15.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec15/">
+          MIT15_082JF10_lec15.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/56433055049c206d3f80eb96aac98107_MIT15_082JF10_lec15.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec15-1/">
+          MIT15_082JF10_lec15.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/4f20b0870aa42b4272f8a7b33f27f5ab_MIT15_082JF10_lec16.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec16/">
+          MIT15_082JF10_lec16.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/e048b527dca76980222bf258a30545f8_MIT15_082JF10_lec16.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec16-1/">
+          MIT15_082JF10_lec16.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/20a632644cf3d882d4406294d4548f97_MIT15_082JF10_lec19.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec19/">
+          MIT15_082JF10_lec19.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/fd6408f56d25e4af4d8b364b4da3b4a3_MIT15_082JF10_lec19.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec19-1/">
+          MIT15_082JF10_lec19.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/3e3ce04fd199c68fefef5fd980112774_MIT15_082JF10_lec20.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec20/">
+          MIT15_082JF10_lec20.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/940e3bddc40d3e40f849b12dc3d5aec1_MIT15_082JF10_lec20.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec20-1/">
+          MIT15_082JF10_lec20.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/672666a612a42d5d828c9ff3b56130e2_MIT15_082JF10_lec21.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec21/">
+          MIT15_082JF10_lec21.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/03d56b3894bd6223d0a9a879ecd869c4_MIT15_082JF10_lec21.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec21-1/">
+          MIT15_082JF10_lec21.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/pdf_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/8dfb047185c50dce4de39d02c375e020_MIT15_082JF10_lec22.pdf" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec22/">
+          MIT15_082JF10_lec22.pdf
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    <div class="resource-list-item container">
+  <div class="row">
+    <div class="d-inline-flex">
+      
+        
+        <img
+          class="resource-thumbnail"
+          src="../../static_shared/images/file_thumbnail.png"
+        />
+      
+
+      
+        
+          <span class="pr-2">
+            
+              <a href="./static_resources/6969633224e4619bcf967f3ff4d3d9ad_MIT15_082JF10_lec22.ppt" target="_blank" download>
+                <img
+                  class="hide-offline resource-download"
+                  src="../../static_shared/images/download.svg"
+                />
+              </a>
+            
+          </span>
+      
+      <div class="pt-2">
+        <a class="resource-list-title" href="../../resources/mit15_082jf10_lec22-1/">
+          MIT15_082JF10_lec22.ppt
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+    
+  
+
+
+</div>
+
+                  </div>
+                </div>
+                
+                <div class="p-0 large-and-above-only d-none" id="desktop-course-drawer">
+                  
+                    <div class="border-left">
+  <div>
+      
+
+<div class="course-info">
+  <div class="course-detail-title bg-light-gray">
+    <div class="d-flex">
+      <div class="font-black py-2 pl-3 m-0">
+        Course Info
+      </div>
+      
+      <button
+        type="button"
+        class="btn close-course-info large-and-above-only"
+        id="hide-desktop-course-drawer"
+        aria-label="Close Course Info"
+        >
+        <img
+          class="toggle navbar-toggle offcanvas-toggle"
+          src="../../static_shared/images/close_small.svg"
+          alt=""
+          width="12px"
+        />
+      </button>
+      
+    </div>
+  </div>
+  <div class="position-relative px-3 mt-4">
+    <div class="row">
+      <div class="col-12 ">
+        
+        <div class="">
+          
+          <div class="panel-course-info-title ">
+            Instructor
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-instructor strip-link-offline"  href="https://ocw.mit.edu/search?q=Prof.&#43;James&#43;Orlin">Prof. James Orlin</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        <div class="mt-4">
+          
+          <div class="panel-course-info-title ">
+            Departments
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Sloan&#43;School&#43;of&#43;Management">Sloan School of Management</a>
+  </li>
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Electrical&#43;Engineering&#43;and&#43;Computer&#43;Science">Electrical Engineering and Computer Science</a>
+  </li>
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Engineering&#43;Systems&#43;Division">Engineering Systems Division</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        
+        <div class="mt-4">
+          <div class="panel-course-info-title ">
+            As Taught In
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            Fall
+            
+              2010
+            
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <div class="panel-course-info-title ">
+            Level
+          </div>
+          <div class="course-info-content panel-course-info-text">
+            
+              
+                <a class=" strip-link-offline"  href="https://ocw.mit.edu/search?l=Graduate">Graduate</a><br />
+              
+            
+          </div>
+        </div>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+    <div class="px-3">
+      
+
+
+
+
+
+<div class=" mt-4">
+  <div class="panel-course-info-title ">
+    Topics
+  </div>
+  <ul class="list-unstyled pb-2 m-0 panel-course-info-text">
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_desktop_0"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_desktop_0"
+    aria-expanded="true">
+    <i class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Business">Business</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse show" id="subtopic-container_desktop_0">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Information&#43;Technology">Information Technology</a></span>
+  </div>
+  <div class="collapse show" id="speciality-container_desktop_0_0">
+    
+  </div>
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Project&#43;Management">Project Management</a></span>
+  </div>
+  <div class="collapse show" id="speciality-container_desktop_0_1">
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_desktop_1"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_desktop_1"
+    aria-expanded="false">
+    <i class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Engineering">Engineering</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse" id="subtopic-container_desktop_1">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-4 ">
+    
+    <a class="topic-toggle"
+      href="#speciality-container_desktop_1_0"
+      data-toggle="collapse"
+      aria-controls="speciality-container_desktop_1_0"
+      aria-expanded="false">
+      <i class="material-icons"></i>
+    </a>
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Computer&#43;Science">Computer Science</a></span>
+  </div>
+  <div class="collapse" id="speciality-container_desktop_1_0">
+    
+    <div class="pt-1 pb-1 pl-5">
+      <span class="topic-text-wrapper">
+        
+        <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Algorithms&#43;and&#43;Data&#43;Structures">Algorithms and Data Structures</a></span>
+    </div>
+    
+    <div class="pt-1 pb-1 pl-5">
+      <span class="topic-text-wrapper">
+        
+        <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Computer&#43;Networks">Computer Networks</a></span>
+    </div>
+    
+  </div>
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-4 ">
+    
+    <a class="topic-toggle"
+      href="#speciality-container_desktop_1_1"
+      data-toggle="collapse"
+      aria-controls="speciality-container_desktop_1_1"
+      aria-expanded="false">
+      <i class="material-icons"></i>
+    </a>
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Systems&#43;Engineering">Systems Engineering</a></span>
+  </div>
+  <div class="collapse" id="speciality-container_desktop_1_1">
+    
+    <div class="pt-1 pb-1 pl-5">
+      <span class="topic-text-wrapper">
+        
+        <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Systems&#43;Optimization">Systems Optimization</a></span>
+    </div>
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_desktop_2"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_desktop_2"
+    aria-expanded="false">
+    <i class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Mathematics">Mathematics</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse" id="subtopic-container_desktop_2">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Applied&#43;Mathematics">Applied Mathematics</a></span>
+  </div>
+  <div class="collapse" id="speciality-container_desktop_2_0">
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      
+  </ul>
+</div>
+
+      
+
+
+
+<div class="">
+  <div class="course-detail-title panel-course-info-title mt-3">
+    Learning Resource Types
+  </div>
+  <div>
+    <div class="row d-inline m-0">
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i class="material-icons pr-1">assignment</i>
+    <span>Problem Sets</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i class="material-icons pr-1">notes</i>
+    <span>Lecture Notes</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i class="material-icons pr-1">group_work</i>
+    <span>Projects</span>
+  </div>
+</div>
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+      
+
+
+<hr>
+<div class="pb-3">
+  <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
+    role="button"
+    href="../../download/index.html">
+    <div class="text-center w-100">Browse Resources</div>
+  </a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<div class="footer">
+    <div class="footer-main-content mx-auto">
+    	<div class="col-12">
+        	<div class="row align-items-center">
+            	<div class="col-12 col-md-9">
+					<div class="d-md-flex align-items-center">
+						<a href="https://openlearning.mit.edu/" target="_blank">
+							<img width="150px" src="../../static_shared/images/mit-ol.png" alt="MIT Open Learning" />
+						</a>
+						<div class="ml-md-3 mt-4 mt-md-0">
+							<div class="font-weight-bold">
+								Over 2,500 courses & materials
+							</div>
+							<div>
+								Freely sharing knowledge with learners and educators around the world. <a href='https://ocw.mit.edu/about'>Learn more</a>
+							</div>
+						</div>
+					</div>
+            	</div>
+				<div class="col-12 col-md-3 d-none d-md-block">
+					<div class="d-flex justify-content-md-end">
+	<div>
+		<a href="https://www.facebook.com/MITOCW" target="_blank">
+			<img class="footer-social-icon ml-0" src="../../static_shared/images/Facebook.png" alt="facebook"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.instagram.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Instagram.png" alt="instagram"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://twitter.com/MITOCW" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Twitter.png" alt="twitter"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.youtube.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Youtube.png" alt="youtube"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/LinkedIn.png" alt="LinkedIn"/>
+		</a>
+	</div>
+</div>
+				</div>
+        	</div>
+    	</div>
+		
+		<div class="col-12 mt-3 mt-md-4">
+			<div class="row align-items-center">
+            	<div class="col-12 col-md-8">
+					<div class="d-lg-flex">
+						<div class="pr-md-2 mt-2 mt-lg-0 d-none d-lg-block">
+							© 2001–2023 Massachusetts Institute of Technology
+						</div>
+						<div class="px-md-2 mt-2 mt-lg-0">
+							<a href="https://accessibility.mit.edu" target="_blank">Accessibility</a>
+						</div>
+						<div class="px-md-2 mt-2 mt-lg-0">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons License</a>
+						</div>
+						<div class="px-md-2 mt-2 mt-lg-0">
+							<a class="hide-offline" href='https://ocw.mit.edu/pages/privacy-and-terms-of-use/'>Terms and Conditions</a>
+						</div>
+					</div>
+            	</div>
+				<div class="col-12 col-md-4">
+					<div class="d-flex justify-content-md-end mt-4 mt-lg-0">
+						<div>
+						Proud member of: 
+						<a href="https://www.oeglobal.org/" target="_blank">
+							<img class="oeg-logo" src="../../static_shared/images/oeg_logo.png" alt="Open Education Global"/>
+						</a>
+						</div>
+					</div>
+				</div>
+        	</div>
+		</div>
+
+		<div class="col-12 mt-5 d-md-none">
+			<div class="d-flex justify-content-md-end">
+	<div>
+		<a href="https://www.facebook.com/MITOCW" target="_blank">
+			<img class="footer-social-icon ml-0" src="../../static_shared/images/Facebook.png" alt="facebook"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.instagram.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Instagram.png" alt="instagram"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://twitter.com/MITOCW" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Twitter.png" alt="twitter"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.youtube.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Youtube.png" alt="youtube"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/LinkedIn.png" alt="LinkedIn"/>
+		</a>
+	</div>
+</div>
+		</div>
+
+		<div class="col-12 mt-4 pl-3 pl-md-4 d-lg-none">
+			© 2001–2023 Massachusetts Institute of Technology
+		</div>
+	</div>
+</div>
+
+  </div>
+  <script>
+function hideLinksOffline(){
+  if (!window.navigator.onLine) {
+    const stripLinks = document.querySelectorAll(".strip-link-offline")
+    const hideOffline = document.querySelectorAll(".hide-offline")
+    const showOffline = document.querySelectorAll(".show-offline")
+    Array.prototype.forEach.call(stripLinks, function(link) {
+      link.outerHTML = link.innerHTML
+    })
+    Array.prototype.forEach.call(hideOffline, function(link) {
+      link.classList.add("d-none")
+    })
+    Array.prototype.forEach.call(showOffline, function(link) {
+      link.classList.remove("d-none")
+    })
+  }
+}
+hideLinksOffline()
+</script>
+
+  <script>
+    
+    
+    
+    
+    
+    
+    'use strict';
+    const COURSE_DRAWER_LOCAL_STORAGE_KEY = "desktopCourseDrawerState"
+    const COURSE_DRAWER_OPENED = "opened"
+    const COURSE_DRAWER_CLOSED = "closed"
+    
+    const DESKTOP_COURSE_DRAWER_ID = "desktop-course-drawer"
+    const SHOW_COURSE_DRAWER_BTN_ID = "show-desktop-course-drawer"
+    const HIDE_COURSE_DRAWER_BTN_ID = "hide-desktop-course-drawer"
+    const MAIN_COURSE_SECTION_ID = "main-course-section"
+
+    try{
+
+      
+
+      function maintainDesktopCourseDrawerState() {
+        const isCourseDrawerOpen = getLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY)
+        if (isCourseDrawerOpen === null) {
+          
+          setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_OPENED)
+          showOrHideDesktopCourseDrawer(COURSE_DRAWER_OPENED)
+        } else {
+          showOrHideDesktopCourseDrawer(isCourseDrawerOpen)
+        }
+      }
+
+      
+
+      function toggleDesktopCourseDrawer() {
+        const showCourseDrawerBtn = document.getElementById(SHOW_COURSE_DRAWER_BTN_ID)
+        const hideCourseDrawerBtn = document.getElementById(HIDE_COURSE_DRAWER_BTN_ID)
+        showCourseDrawerBtn.addEventListener("click", () => {
+          setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_OPENED)
+          showOrHideDesktopCourseDrawer(COURSE_DRAWER_OPENED)
+        })
+        hideCourseDrawerBtn.addEventListener("click", () => {
+          setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_CLOSED)
+          showOrHideDesktopCourseDrawer(COURSE_DRAWER_CLOSED)
+        })
+      }
+
+      
+
+      function showOrHideDesktopCourseDrawer(state) {
+        const desktopCourseDrawer = document.getElementById(DESKTOP_COURSE_DRAWER_ID)
+        const showCourseDrawerBtn = document.getElementById(SHOW_COURSE_DRAWER_BTN_ID)
+        const mainCourseSection = document.getElementById(MAIN_COURSE_SECTION_ID)
+        if (state === COURSE_DRAWER_OPENED) {
+          desktopCourseDrawer.classList.add("col-3")
+          desktopCourseDrawer.classList.remove("d-none")
+          showCourseDrawerBtn.classList.add("d-none")
+          mainCourseSection.classList.add("col-lg-9")
+          mainCourseSection.classList.remove("col-md-12")
+        } else {
+          desktopCourseDrawer.classList.remove("col-3")
+          desktopCourseDrawer.classList.add("d-none")
+          showCourseDrawerBtn.classList.remove("d-none")
+          mainCourseSection.classList.remove("col-lg-9")
+          mainCourseSection.classList.add("col-md-12")
+        }
+      }
+
+      function setOrGetLocalStorageItem(action,key,value) {
+        try {
+          
+          if (typeof Storage !== "undefined") {
+            if (action === "set") {
+              localStorage.setItem(key, value)
+              return true
+            } else {
+              return localStorage.getItem(key)
+            }
+          }
+          console.error("This browser has no web storage support.")
+          return null
+        } catch (e) {
+          console.error("An exception occurred while storing/fetching data in/from localstorage: ", e)
+          return null
+        }
+      }
+
+      function setLocalStorageItem(key, value) {
+        return setOrGetLocalStorageItem("set", key, value)
+      }
+      
+      function getLocalStorageItem(key){
+        return setOrGetLocalStorageItem("get", key)
+      }
+
+      maintainDesktopCourseDrawerState()
+      toggleDesktopCourseDrawer()
+    }
+    catch(e){
+      console.error("Something went wrong in maintaining/toggling course drawer state", e)
+    }
+  </script>
+
+  
+
+<script>
+function expandNav(e,t){t.classList.add("show"),e.querySelector(".course-nav-section-toggle, video-tab-toggle-section").setAttribute("aria-expanded","true")}function courseNav(){document.querySelectorAll(".course-nav, .transcript-header").forEach(e=>{e.querySelectorAll(".nav-link").forEach(e=>{const t=e.getAttribute("href")?e.getAttribute("href"):"";if(t.replace(/\/$/,"")===window.location.pathname.replace(/\/$/,"")){e.classList.add("active");const s=e.dataset.uuid,t=e.closest(".course-nav-list-item"),n=t?.querySelector(".collapse"),o=Array.prototype.filter.call(document.querySelectorAll(".course-nav-section-toggle"),e=>e.dataset.uuid===s);t&&n&&o.length>0&&expandNav(t,n)}});const t=e.querySelector("a.nav-link.active");e.querySelectorAll(".course-nav-list-item").forEach(e=>{const n=e.querySelector(".collapse");n&&n.contains(t)&&expandNav(e,n)})})}courseNav()
+</script>
+
+  
+
+<script>
+(()=>{var e=()=>document.querySelectorAll("#course-content-section table"),t=()=>document.getElementById("course-content-section");function n(){const o=e(),n=t();if(!n)return;if(!window.ResizeObserver)return;const i=new ResizeObserver(()=>s());i.observe(n),o.forEach(e=>{const t=e.getElementsByTagName("th"),n=e.querySelectorAll("table tr");n.forEach(e=>{const n=e.querySelectorAll("td");n.forEach((e,s)=>{t.length>=s+1&&(n[s].dataset.title=t[s].innerText.trim().concat(": "))})})})}function s(){const s=e(),n=t();if(!n)return;s.forEach(e=>{const t=n.getBoundingClientRect(),o=+(e.dataset.minWidth??0);t.width>o&&e.classList.remove("mobile-table");const s=e.getBoundingClientRect();s.right>t.right&&(e.dataset.minWidth=`${s.width}`,e.classList.add("mobile-table"))})}n()})()
+</script>
+
+
+
+    
+    <script src="../../static_shared/js/common.f2f30.js"></script>
+    
+
+    
+    <script src="../../static_shared/js/course_v2.f2f30.js"></script>
+    
+
+  
+  
+
+
+  <script async src="https://w.appzi.io/w.js?token=Tgs1d"></script>
+
+  
+</body>
+
+</html>
